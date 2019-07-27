@@ -3,6 +3,8 @@ name = "fake-static"
 version = "0.1.0"
 authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
 edition = "2018"
+license = "MIT"
+description = "rustc hates him! Sidestep borrow checking with this weird trick (no unsafe inside)."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
