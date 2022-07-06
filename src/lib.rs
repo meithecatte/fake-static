@@ -15,7 +15,7 @@ pub fn make_static<'a, T>(input: &'a T) -> &'static T {
 
 /// Use black magic fuckery to change the lifetime on a mutable refrence
 /// May introduce undefined behavior.
-pub fn make_static_mut<'a, 'b, T>(input: &'a mut T) -> &'b static T {
-    let f: fn(_, &'a mut T) -> &'b static T = helper_mut;
+pub fn make_static_mut<'a, 'b, T>(input: &'a mut T) -> &'b mut T {
+    let f: fn(_, &'a mut T) -> &'b mut T = helper_mut;
     f(&&(), input)
 }
