@@ -1,12 +1,12 @@
 [package]
 name = "fake-static"
 version = "0.1.0"
-authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
+authors = ["Maja Kądziołka <maya@compilercrim.es>"]
 edition = "2018"
 license = "MIT"
 description = "rustc hates him! Sidestep borrow checking with this weird trick (no unsafe inside)."
 documentation = "https://docs.rs/fake-static/"
-repository = "https://github.com/NieDzejkob/fake-static"
+repository = "https://github.com/meithecatte/fake-static"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
